@@ -1,0 +1,161 @@
+/* Add a black background color to the top navigation */
+body > * {
+  font-family: sans-serif;
+}
+
+.title-vaccination {
+  color: #0B95E5;
+  padding-left: 10%;
+}
+
+.topnav {
+  background-color: #FFF;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 1%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  border-radius: 16px;
+  background-color: #0B95E5;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0B95E5;
+  color: white;
+}
+
+.box-container {
+  width: 100%;
+  padding: 2%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  width: 48%;
+  padding: 1%;
+}
+
+h1 {
+  font-size: 102px;
+  color: #023a5a;
+}
+
+p {
+  color: gray;
+  font-size: 28px;
+}
+
+.last-btn {
+  color: #023a5a;
+  background-color: #0B95E5;
+  border-radius: 16px;
+}
+
+button {
+  background-color: #0B95E5;
+  border-radius: 16px;
+  border-color: rgba(255, 255, 255, 0);
+  margin: 8px;
+}
+
+button:active {
+  background-color: #023a5a;
+}
+
+.vaccines > * {
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 16px;
+  border-style: outset;
+  border-color:#a1c6dbc2;
+  width: 200px;
+  height: 300px;
+  margin: 2%;
+  padding: 1%;
+}
+
+.card > p {
+  font-size:larger;
+}
+
+h4 {
+  color: #023a5a;
+}
+
+.information-card > * {
+  margin: 0 auto;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 16px;
+  margin-bottom: 2%;
+}
+
+.icon-background {
+  background-color: #a1c6dbc2;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  border-radius: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.card2 > button {
+  width: 50px; 
+  height: 50px;
+}
+
+.row-card > div {
+  margin: 2%;
+}
+
+.card2-text {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer {
+  padding: 2%;
+  background-color: #af98c8;
+  width: 98%;
+}
+
+.footer-title {
+  color: #093781;
+}
+
+.footer-description {
+  color: rgb(65, 65, 65);
+  width: 50%;
+  font-size: 16px;
+  margin-top: 16px;
+  font-weight: bold;
+}
